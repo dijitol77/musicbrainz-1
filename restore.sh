@@ -12,7 +12,6 @@ do
 sudo  wget $a$latest$b$x$d
 done
 
-service postgresql restart
 cd
 sudo cp musicbrainz/startMusicBrainz.sh /bin/musicbrainz
 echo "/bin/musicbrainz" | sudo tee -a /etc/rc.local
