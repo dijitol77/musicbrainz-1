@@ -1,3 +1,5 @@
+cd
+sudo mv musicbrainz-1 musicbrainz
 sudo mkdir -p /opt/musicbrainz/mblog 
 mkdir $HOME/mblog
 home=/opt/musicbrainz
