@@ -203,7 +203,7 @@ Result "Musicbrainz_db ident" "Adding Musicbrainz in pg_ident.conf"
 echo "mb_map    ubuntu    musicbrainz" | sudo tee -a  /etc/postgresql/9.5/main/pg_ident.conf	 2>>  $a
 Result "Add system user in Ident.conf" "Adding user in pg_ident.conf"
 
-
+service postgresql restart
 
 ##############################################################################
 Msg "Setup is complete! Check log file for  any error"
